@@ -34,10 +34,11 @@
     /*Con Grid area asignamos el espacio que va a ocupar nuestro contenedor en el layout*/
     grid-area: Header;
     color: #fff;
-    /* text-align: center; */
     font-size: 25px;
     justify-content:space-between;
 }
+
+/*Estilos de los links del Menu principal*/
 .Header > a{
     text-decoration: none;
 }
@@ -64,6 +65,7 @@
     justify-content:space-between;
     align-items:center;
 }
+/*Estilos de los links del Menu 2*/
 .Menu2 > a{
     text-decoration: none;
 }
@@ -77,13 +79,14 @@
     color: #ADADAD;
 }
 
-
+/*Contenedor del Main*/
 .Contenido{
     background-color: #12203e;
     grid-area: Contenido;
     height: 485px;
     overflow-y: auto;
 }
+/*Contenedor del pie de pagina*/
 .Footer{
     background-color: #12203e;
     grid-area: Footer;
@@ -102,6 +105,7 @@
     padding: 10px 10px;
     text-align: center;
 }
+/*Contenedor interno del ejercicio 1*/
 #pandora{
     min-height: 120px;
     margin: 15px 10px; 
@@ -110,7 +114,7 @@
     text-align: center;
     align-items: center;
 }
-
+/*Contenedor interno del ejercicio 2*/
 #horcruxes{
     max-height: 100px;
     margin: 45px auto;
@@ -120,6 +124,7 @@
     border: 2px solid #12203e;
     overflow-y: auto;
 }
+/*Contenedor interno del #horcruxes del ejercicio 2*/
 #horcruxes1{
     margin: 20px 40px;
     padding: 10px 10px;
@@ -127,6 +132,7 @@
     background-color: #fff;
     border: 2px solid #12203e;
 }
+/*Contenedor interno del ejercicio 6*/
 #Lista1{
     background-color: #fff;
     margin: 20px 25px;
@@ -134,6 +140,7 @@
     text-align: center;
     border: 2px solid #12203e;
 }
+/*Contenedor interno del ejercicio 8*/
 #Lista2{
     background-color: #fff;
     margin: 20px 25px;
@@ -143,27 +150,7 @@
     overflow-y: auto;
     max-height: 235px;
 }
-/*Botones */
-/*Boton 1*/
-.boton{
-    background-color: #28E4F0;
-    height: 50px;
-    width: 100px;
-    padding: 5px 5px;
-    border-radius: 15px;
-}
-
-.boton:hover{
-    background-color: #00D4F5;
-}
-
-
-#Git:hover{
-    background-color: #ADADAD;
-    border-radius: 50%;
-}
-
-/*Estilos de Harry P*/
+/*Estilos del ejercicio que usa listas*/
 .gryffindor{
     background-color: orange;
     border: 2px solid red;
@@ -186,3 +173,21 @@
     height: 30px ;
     width: 60px;
 }
+/*Clase para todos los Botones*/
+.boton{
+    background-color: #28E4F0;
+    height: 50px;
+    width: 100px;
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+/*Hover de los botones*/
+.boton:hover{
+    background-color: #00D4F5;
+}
+/*Hover del logo de GitHub*/
+#Git:hover{
+    background-color: #ADADAD;
+    border-radius: 50%;
+}
+
